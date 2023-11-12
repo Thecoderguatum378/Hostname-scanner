@@ -12,7 +12,7 @@ Now you need to print the host names.
 
 Get the Libraries:
 
-``c
+```
 #include <Winsock2.h>
 #include <WS2tcpip.h>
 #include <iostream>
@@ -21,7 +21,7 @@ Get the Libraries:
 #pragma comment(lib, "ws2_32.lib") -> You need to link it with the compiler or else it won't work
 ```
 
-```c
+```
 Make a socket data variable:
    WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
@@ -32,7 +32,7 @@ Make a socket data variable:
 ```
 
 Loop through IPs on the host:
-``c
+```
     for (int i = 1; i <= 254; ++i) {
         std::string ipAddress = "192.168.1." + std::to_string(i);
         sockaddr_in saGNI;
@@ -63,7 +63,7 @@ Print the IP with the corresponding hostname:
 ```
 
   Now clean up any extra memory:
-```c 
+``` 
   WSAcleanup();
 ```
   
