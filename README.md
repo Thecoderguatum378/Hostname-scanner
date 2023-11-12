@@ -20,9 +20,9 @@ Get the Libraries:
 
 #pragma comment(lib, "ws2_32.lib") -> You need to link it with the compiler or else it won't work
 ```
-
+Now setup the WinSock API.
 ```
-Make a socket data variable:
+
    WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
         std::cerr << "WSAStartup failed." << std::endl;
