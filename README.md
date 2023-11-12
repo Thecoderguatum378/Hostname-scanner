@@ -20,7 +20,7 @@ Get the Libraries:
 
 #pragma comment(lib, "ws2_32.lib") -> You need to link it with the compiler or else it won't work
 ```
-Now setup the WinSock API.
+Now setup the WinSock API:
 ```
 
    WSADATA wsaData;
