@@ -6,8 +6,8 @@ This uses Reverse DNS to search up the hostnames.
 
 Theory:
 
-So in theory,you need to make something that can support socket data.
-Next, you have to make a forloop and scan through the range
+So in theory,you need to first setup your socket api.
+Next, you have to make a forloop and scan through the range with your code.
 Now you need to print the host names.
 
 Get the Libraries:
