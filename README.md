@@ -11,7 +11,8 @@ Next, you have to make a forloop and scan through the range
 Now you need to print the host names.
 
 Get the Libraries:
-```c
+
+``c
 #include <Winsock2.h>
 #include <WS2tcpip.h>
 #include <iostream>
