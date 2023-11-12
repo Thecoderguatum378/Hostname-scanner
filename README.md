@@ -4,6 +4,11 @@
 A nice and clean hostname scanner that scans from 192.168.1.1-254 using WinSock
 This uses Reverse DNS to search up the hostnames.
 
+Notes:
+This only works on windows.
+If you want to edit this you can, just give Credits.
+Open a pull request to sugest anything.
+
 Theory:
 
 So in theory,you need to first setup your socket api.
